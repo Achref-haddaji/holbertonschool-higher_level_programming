@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ Rectangle module """
-from models.base import Base
+from . base import Base
 
 
 class Rectangle(Base):
@@ -133,7 +133,7 @@ class Rectangle(Base):
                     if i == "y":
                         self.y = kwargs["y"]
 
-	def to_dictionary(self):
+    def to_dictionary(self):
         """
         returns the dictionary representation of a Rectangle
         """
