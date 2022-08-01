@@ -5,9 +5,10 @@ if (isNaN(x)) {
 } else {
   let i;
   let s = '';
-  for (i = 0; i < x; i++); {
+  for (i = 0; i < x; i++) {
     s += 'X';
   }
-} for (i = 0; i < x; i++); {
-  console.log(s);
+  for (i = 0; i < x; i++) {
+    console.log(s);
+  }
 }
